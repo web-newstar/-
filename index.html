@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一个简单的布局，多用padding</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            list-style: none;
+        }
+
+        .big{
+            width:300px;
+            height:500px;
+            border:1px solid #e6e6e6;
+            margin:40px auto;
+        }
+        .big .nav_Contain{
+            border-bottom:1px solid #e6e6e6;
+
+        }
+        .big .nav_Contain .nav_Link{
+            display:block;
+            padding:25px 20px;
+            background:#e6e6e6;
+        }
+        .big .nav_Contain .nav_Link .img_Contain{
+            float:left;
+            margin-right:14px;
+        }
+        .big .nav_Contain .nav_Link .img_Contain img{
+            width:106px;
+            height:106px;
+        }
+        .big .nav_Contain .nav_Link .des .nav_Title{
+            font-size:12px;
+            font-weight:600;
+            line-height:1.3em;
+        }
+        .big .nav_Contain .nav_Link .des .nav_Describe span{
+            color:#333;
+            font-size:12px;
+            line-height:1.5em;
+        }
+        .big .nav_Contain .nav_Link .des .house{
+            margin-top:5px;
+            font-size:12px;
+            height:30px;
+            line-height:1.4em;
+            border:1px solid pink;
+        }
+    </style>
+</head>
+<body>
+<div class="big">
+    <div class="nav_Contain">
+        <a href="" class="nav_Link">
+            <div class="img_Contain">
+                <img src="./henyuan.jpg" alt="">
+            </div>
+            <div class="des">
+                <p class="nav_Title">扩散到了就发偶是第几哦啊涉及到佛时代</p>
+                <p class="nav_Describe">
+                    <span>三室一厅</span>
+                    <span> 60平</span>
+                    <span>150万</span>
+                </p>
+                <p class="house">房本两年</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
